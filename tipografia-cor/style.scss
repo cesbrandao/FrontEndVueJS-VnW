@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: pink;
+}
+
+h2 {
+    color: gold;
+}
+
+section {
+    margin: 10px;
+    padding-left: 20px;
+}
+
+#rgb-sec {
+    border: solid tomato;
+    //padding: 10px;
+}
+
+#rgba-sec {
+    border: solid purple;
+    //aninhamento é do Sass, não do CSS!
+    p {
+        background-color: antiquewhite;
+    }
+}
+
+#hex-sec {
+    border: solid  #ff0000;
+}
+
+.red {
+    color: rgb(255, 0, 0);
+}
+
+.green {
+    color: rgb(0, 255, 0);
+}
+
+.blue {
+    color: rgb(0, 0, 255);
+}
