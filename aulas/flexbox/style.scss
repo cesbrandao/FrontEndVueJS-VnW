@@ -1,0 +1,42 @@
+.container-x-axis {
+    border: solid tomato;
+    display: flex;
+
+    //eixo x
+    //justify-content: flex-start;//padrão
+    justify-content: center;
+    //justify-content: space-between;// espaçamento entre os elementos
+    //justify-content: space-around;//espaçamento ao redor dos elementos
+    //justify-content: space-evenly;//espaçamento ao redor dos elementos de forma igual
+}
+
+.x-axis {
+    border: solid green;
+}
+
+.container-y-axis {
+    border: solid tomato;
+    display: flex;
+    height: 100px;
+
+    //eixo y
+    //align-items: stretch;//padrão - ocupa todo espaço no eixo y, "esticado"
+    align-items: center;
+    //align-items: flex-start;//alinha ao topo
+}
+
+.y-axis {
+    border: solid green;
+}
+
+.container-dir {
+    border: solid tomato;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    flex-direction: column; //direção dos elementos-filhos
+}
+
+.dir {
+    border: solid green;
+}

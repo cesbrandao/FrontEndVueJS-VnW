@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 10px;
+}
+
+section {
+    border: solid red;
+    margin: 10px;
+    height: 300px;
+    position: relative; //"prende" o filho (div .absolute) dentro dela. Se o pai não tiver position: relative; o elemento com position:absolute; fica "solto" na tela.
+}
+
+.static {
+    background-color: mediumvioletred;
+    width: 200px;
+    height: 200px;
+    position: static; //padrão
+    //"fica aonde for colocada"
+}
+
+.relative {
+    background-color: mediumvioletred;
+    width: 200px;
+    height: 200px;
+    position: relative; //"libera" as propriedades: top, right, left, bottom
+    top: 20px; //move ("empurra") a div 20px do topo da section
+}
+
+.absolute {
+    background-color: rgb(21, 187, 199);
+    width: 200px;
+    height: 200px;
+    position: absolute; //"libera" as propriedades: top, right, left, bottom
+    //fica "solta" na tela
+    top: 20px;
+    }
+
+.sticky {
+    background-color: red;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1; //nível de profunidade
+}

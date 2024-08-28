@@ -1,0 +1,17 @@
+$cor-texto:rgb(238, 227, 227);
+
+#one-sec {
+    background-color: aquamarine;
+    p {
+        color: blueviolet;
+    }
+}
+#two-sec {
+    background-color: tomato;
+    p {
+        color: $cor-texto;
+    }
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

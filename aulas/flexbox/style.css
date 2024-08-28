@@ -1,0 +1,32 @@
+.container-x-axis {
+  border: solid tomato;
+  display: flex;
+  justify-content: center;
+}
+
+.x-axis {
+  border: solid green;
+}
+
+.container-y-axis {
+  border: solid tomato;
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+
+.y-axis {
+  border: solid green;
+}
+
+.container-dir {
+  border: solid tomato;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dir {
+  border: solid green;
+}/*# sourceMappingURL=style.css.map */
