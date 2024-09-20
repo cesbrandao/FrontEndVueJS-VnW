@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     margin-left: 10px;
-}
+} */
 
 section {
     border: solid red;
@@ -43,7 +43,18 @@ section {
 .sticky {
     background-color: red;
     height: 50px;
-    position: sticky;
+    position: sticky; //mais usado para notificações, por exemplo
     top: 0;
     z-index: 1; //nível de profunidade
+}
+
+.fixed {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    height: 10vh;
+    position: fixed; //semelhante ao sticky
+    width: 100vh;
+    background-color: cadetblue;
 }

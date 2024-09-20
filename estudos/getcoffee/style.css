@@ -1,0 +1,45 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-<uniquifier> {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 8px rgba(36, 36, 36, 0.1490196078);
+  height: 10vh;
+  padding: 0 10%;
+}
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 25vw;
+}
+@media (max-width: 600px) {
+  header ul {
+    width: 40vw;
+  }
+}/*# sourceMappingURL=style.css.map */

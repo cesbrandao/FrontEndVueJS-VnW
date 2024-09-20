@@ -1,0 +1,49 @@
+$font-nunito: "Nunito", sans-serif;
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-<uniquifier> {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+@mixin flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-nunito;
+}
+
+header {
+    //border: solid red;
+    @include flexbox();
+    //box-shadow: x, y, blur, rgba
+    box-shadow: 0 1px 8px #24242426;
+    height: 10vh;
+    padding: 0 10%;
+    @media (max-width: 600px) {
+        flex-direction: column;
+        justify-content: center;
+    }
+    ul {
+        //border: solid gold;
+        @include flexbox();
+        list-style: none;
+        width: 25vw;
+        @media (max-width: 600px) {
+            width: 40vw;
+        }
+    }
+}

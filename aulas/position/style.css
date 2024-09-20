@@ -4,10 +4,9 @@
   box-sizing: border-box;
 }
 
-body {
-  margin-left: 10px;
-}
-
+/* body {
+    margin-left: 10px;
+} */
 section {
   border: solid red;
   margin: 10px;
@@ -44,4 +43,15 @@ section {
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+.fixed {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  height: 10vh;
+  position: fixed;
+  width: 100vh;
+  background-color: cadetblue;
 }/*# sourceMappingURL=style.css.map */
